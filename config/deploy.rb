@@ -1,7 +1,7 @@
 #load 'deploy' if respond_to?(:namespace) 
 # include uberspacify base recipes
 require "bundler/capistrano"
-require 'capistrano/ext/multistage'
+require "capistrano/ext/multistage"
 #
 
 set :stages, ["staging", "production"]

@@ -1,0 +1,25 @@
+.leaflet-popup-content {
+	width: 450px !important;
+}
+
+.popup {
+	h1 {
+		font-size: 14px;
+	}
+
+	.details {
+		min-height: 160px;
+	}
+
+	.image {
+		width: 150px;
+		height: 150px;
+		float: left;
+		margin-right: 20px;
+		margin-bottom: 5px;
+	}
+
+	.description {
+		margin-top: 5px;
+	}
+}

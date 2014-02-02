@@ -10528,13 +10528,47 @@ td.visible-print {
   border: 1px solid #666;
 }
 
-/* line 4, ../../src/sass/main.scss */
+/* line 1, ../../src/sass/popup.scss */
+
+.leaflet-popup-content {
+  width: 450px !important;
+}
+
+/* line 6, ../../src/sass/popup.scss */
+
+.popup h1 {
+  font-size: 14px;
+}
+
+/* line 10, ../../src/sass/popup.scss */
+
+.popup .details {
+  min-height: 160px;
+}
+
+/* line 14, ../../src/sass/popup.scss */
+
+.popup .image {
+  width: 150px;
+  height: 150px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
+
+/* line 22, ../../src/sass/popup.scss */
+
+.popup .description {
+  margin-top: 5px;
+}
+
+/* line 5, ../../src/sass/main.scss */
 
 .container-main {
   padding-top: 30px;
 }
 
-/* line 8, ../../src/sass/main.scss */
+/* line 9, ../../src/sass/main.scss */
 
 code,
 pre,
@@ -10545,32 +10579,32 @@ pre,
   border: 1px solid #DADADA;
 }
 
-/* line 16, ../../src/sass/main.scss */
+/* line 17, ../../src/sass/main.scss */
 
 code {
   padding: 0 3px;
 }
 
-/* line 20, ../../src/sass/main.scss */
+/* line 21, ../../src/sass/main.scss */
 
 pre {
   margin: 10px 0;
   padding: 5px;
 }
 
-/* line 25, ../../src/sass/main.scss */
+/* line 26, ../../src/sass/main.scss */
 
 .page-header {
   margin-top: 60px;
 }
 
-/* line 28, ../../src/sass/main.scss */
+/* line 29, ../../src/sass/main.scss */
 
 .page-header:first-child {
   margin-top: 20px;
 }
 
-/* line 33, ../../src/sass/main.scss */
+/* line 34, ../../src/sass/main.scss */
 
 h2 {
   margin: 20px 0;
@@ -10581,13 +10615,13 @@ h2 {
  * Navigation
  */
 
-/* line 44, ../../src/sass/main.scss */
+/* line 45, ../../src/sass/main.scss */
 
 .navbar .navbar-inner {
   padding: 0;
 }
 
-/* line 48, ../../src/sass/main.scss */
+/* line 49, ../../src/sass/main.scss */
 
 .navbar .nav {
   margin: 0;
@@ -10595,7 +10629,7 @@ h2 {
   width: 100%;
 }
 
-/* line 53, ../../src/sass/main.scss */
+/* line 54, ../../src/sass/main.scss */
 
 .navbar .nav li {
   display: table-cell;
@@ -10603,7 +10637,7 @@ h2 {
   float: none;
 }
 
-/* line 58, ../../src/sass/main.scss */
+/* line 59, ../../src/sass/main.scss */
 
 .navbar .nav li a {
   font-weight: bold;
@@ -10611,14 +10645,14 @@ h2 {
   border-right: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-/* line 65, ../../src/sass/main.scss */
+/* line 66, ../../src/sass/main.scss */
 
 .navbar .nav li:first-child a {
   border-left: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* line 70, ../../src/sass/main.scss */
+/* line 71, ../../src/sass/main.scss */
 
 .navbar .nav li:last-child a {
   border-right: 0;
@@ -10629,20 +10663,20 @@ h2 {
  * Footer
  */
 
-/* line 83, ../../src/sass/main.scss */
+/* line 84, ../../src/sass/main.scss */
 
 .footer {
   margin-top: 80px;
 }
 
-/* line 86, ../../src/sass/main.scss */
+/* line 87, ../../src/sass/main.scss */
 
 .footer .footer-inner {
   padding: 40px 0;
   border-top: 1px solid #DDD;
 }
 
-/* line 91, ../../src/sass/main.scss */
+/* line 92, ../../src/sass/main.scss */
 
 .footer .social {
   float: right;
@@ -10650,14 +10684,14 @@ h2 {
   list-style: none;
 }
 
-/* line 96, ../../src/sass/main.scss */
+/* line 97, ../../src/sass/main.scss */
 
 .footer .social li {
   float: left;
   margin-left: 20px;
 }
 
-/* line 100, ../../src/sass/main.scss */
+/* line 101, ../../src/sass/main.scss */
 
 .footer .social li a,
 .footer .social li a:visited {
