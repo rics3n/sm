@@ -4,5 +4,5 @@ build/
 bin/
 node_modules/
 vendor/
-.tmp/*
-.sass-cache/*
+.tmp
+.sass-cache
