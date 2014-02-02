@@ -160,7 +160,7 @@ angular.module('ngBoilerplate', [
                 city: "10823 Berlin",
                 lat: 52.48947,
                 lng: 13.35367,
-                img: "/assets/images/gottlob.jpg",
+                img: "assets/images/gottlob.jpg",
                 description: "Gottlob gibt es noch Restaurant-Cafés, in denen der Zufriedenheit der Gäste ein hoher Stellenwert beigemessen und Fauxpas mit Größe begegnet wird. Ein gemütliches Etablissement mit leichter Patina, aber mit goldenem Stuck und Kristall-Leuchten verzierten Wänden und einer reichhaltigen Feinschmecker-Karte."
             }
 
@@ -170,7 +170,7 @@ angular.module('ngBoilerplate', [
                 city: "10439 Berlin",
                 lat: 52.550963,
                 lng: 13.408917,
-                img: "/assets/images/dear.jpg",
+                img: "assets/images/dear.jpg",
                 description: "DearGoods ist der Concept Store für Mode und Lifestyle mit dreifach ... Vegan, Bio Kleidung, Grüne Mode, Green Fashion, Greenlifestyle, Berlin, München, Fair ..."
             }
 
@@ -180,7 +180,7 @@ angular.module('ngBoilerplate', [
                 city: "10439 Berlin",
                 lat: 52.551156,
                 lng: 13.405221,
-                img: "/assets/images/blau.jpg",
+                img: "assets/images/blau.jpg",
                 description: "Neben frisch gemixten Cocktails, cremigen Milchshakes, leckeren Longdrinks und erlesenen Weinen servieren wir frisch gezapftes Rollberger – »Finest Natural Bier aus Berlin«. Dieses süffige, naturbelassene Bier kommt direkt aus einer kleinen Berliner Privatbrauerei. Hungrig? Kein Problem – wir bereiten gern Snacks und kleine Gerichte für euch zu"
             }
 
@@ -190,7 +190,7 @@ angular.module('ngBoilerplate', [
                 city: "10439 Berlin",
                 lat: 52.551723,
                 lng: 13.413727,
-                img: "/assets/images/alna.jpeg",
+                img: "assets/images/alna.jpeg",
                 description: "Mit unseren Produkten wollen wir Sinnvolles für Mensch und Erde bewirken. Gegründet wurde Alnatura 1984 von Prof. Dr. Götz E. Rehn, der auch heute noch einer der beiden Geschäftsführer des Unternehmens ist, ihm zur Seite steht Wulf K. Bauer."
             }
 
