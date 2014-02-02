@@ -150,7 +150,7 @@ angular.module('ngBoilerplate', [
 
         $scope.title = "Juhuu";
 
-        $http.get('/app/home/marker_popup.tpl.html').then(function(r) {
+        $http.get('app/home/marker_popup.tpl.html').then(function(r) {
             var htmlString = r.data;
             var popupTemplate = Handlebars.compile(htmlString);
 
