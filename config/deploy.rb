@@ -1,17 +1,18 @@
+#load 'deploy' if respond_to?(:namespace) 
 # include uberspacify base recipes
+require "bundler/capistrano"
 require 'capistrano/ext/multistage'
-require 'bundler/capistrano'
 #
 
 set :stages, ["staging", "production"]
 set :default_stage, "staging"
 #set :stage_dir,     "app/deploy"
 
-set :repository, "git@github.com:snib/Tandemploy.git"  # Your clone URL
+set :repository, "git@github.com:rics3n/sm.git"  # Your clone URL
 set :scm, :git
 
 set :application, "smallternative"
-set :url_path, "smallternative"
+
 #set(:user)  { fetch(:uber_user) }
 set(:branch) { uber_branch }
 
@@ -45,6 +46,7 @@ set(:use_sudo)                { false }
 
 ssh_options[:forward_agent] = true
 default_run_options[:pty]   = true
+
 
 after   'deploy:setup',           'daemontools:setup_daemon'
 after   'deploy:setup',           'apache:setup_reverse_proxy'
@@ -132,7 +134,7 @@ exec multilog t ./main
     task :setup_reverse_proxy do
       htaccess = <<-EOF
 RewriteEngine On
-RewriteRule ^#{fetch :url_path}/(.*)$ http://localhost:#{fetch :passenger_port}/$1 [P]
+RewriteRule ^smallternative/(.*)$ http://localhost:#{fetch :passenger_port}/$1 [P]
       EOF
       path = fetch(:domain) ? "/var/www/virtual/#{fetch :user}/#{fetch :domain}" : "#{fetch :home}/html"
       run                 "mkdir -p #{path}"

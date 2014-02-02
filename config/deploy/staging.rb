@@ -7,4 +7,3 @@ set :user, 'tploy'
 # the repo where your code is hosted
 set :uber_branch, "master"
 
-

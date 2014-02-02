@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '3.2.15'.ruby-version
+gem 'rails', '3.2.15'
 
 gem 'rails-api'
 
@@ -11,7 +11,7 @@ gem 'carrierwave'
 gem 'mini_magick'
 
 # Gems for deployment
-gem 'capistrano'
+gem 'capistrano', '~> 2.15.5'
 gem 'capistrano-ext'
 gem 'uberspacify', :git => 'git://github.com/rics3n/uberspacify.git'
 

@@ -1,9 +1,9 @@
 angular.module("config", [])
 
-.constant("ENV", "dev")
+.constant("ENV", "prod")
 
-.constant("API_HOST", "http://localhost:3000/api/v1/")
+.constant("API_HOST", "/api/v1/")
 
-.constant("SERVER", "http://localhost:3000/")
+.constant("SERVER", "/")
 
 ;
