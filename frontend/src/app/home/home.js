@@ -1,7 +1,6 @@
 
 angular.module( 'ngBoilerplate.home', [
-  'ui.router',
-  'plusOne'
+  'ui.router'
 ])
 
 .config(function config( $stateProvider ) {
